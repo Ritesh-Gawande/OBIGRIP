@@ -9,31 +9,43 @@
     margin: 4px 2px;
     cursor: pointer;
 }
-.button1 {background-color: #a6c926;
+.button1 {background-color: #4CAF50;
 padding: 10px 25px;}
-.button2 {background-color: #4CAF50
-    padding:10px 25px;}
+.button2 {background-color: #4CAF50;
+    padding: 10px 25px;}
 .button3 {background-color: #9dcc2f;
 padding:10px 70px;}
 .button4 {background-color: #4CAF50;
     padding:10px 70px}
-.button5 {background-color: #4CAF50;
+.button5 {background-color: #9dcc2f;
     padding:10px 85px}
 .button6 {background-color: #4CAF50;
     padding:10px 95px}
 
 h1{
+    text-align: center;
     padding: 10px 30px;
     background-color:aquamarine;
     color: black;
     font-size: 30px;
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
+.fa:hover {
+    opacity: 0.7;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
     text-align: center;
- }
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }  
+.fa-github {
+    background: #0e0d0d;
+    color: white;
+  }
